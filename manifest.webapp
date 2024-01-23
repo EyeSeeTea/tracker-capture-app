@@ -1,6 +1,6 @@
 {
     "appType": "APP",
-    "version": "36.0.17",
+    "version": "36.0.17.1",
     "name": "Tracker Capture",
     "description": "Tracker Capture App",
     "launch_path": "index.html",
