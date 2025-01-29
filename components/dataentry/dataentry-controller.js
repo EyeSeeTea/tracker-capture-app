@@ -2573,7 +2573,7 @@ trackerCapture.controller('DataEntryController',
                     else{
                         return DateUtils.getDate(event.sortingDate);
                     }                    
-                }, false);
+                }, true); // sortOrder: true - get events in descending date order.
             $scope.eventsByStage[key] = sortedEvents;
             $scope.eventsByStageDesc[key] = [];
             
